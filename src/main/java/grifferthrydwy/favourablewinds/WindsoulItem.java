@@ -21,6 +21,7 @@ public class WindsoulItem extends Item {
     }
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand();
         Vec3d vec3d = user.getRotationVector();
         double d = 1.5D;
         double e = 0.1D;
