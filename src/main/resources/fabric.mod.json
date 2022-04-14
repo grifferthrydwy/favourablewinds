@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "favourablewinds",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Favourable Winds",
+  "description": "adds a cool item",
   "authors": [
-    "Me!"
+    "grifferthrydwy"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "grifferthrydwy.favourablewinds.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "favourablewinds.mixins.json"
   ],
 
   "depends": {
